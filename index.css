@@ -1,30 +1,38 @@
+body {
+	font-family: arial, sans-serif;
+}
 .top-nav {
-	background: #222;
+	background: #eee;
 	height: 50px;
 	width: 100%;
 	position: absolute;
 	margin: 0px;
 	border-bottom: 2px solid #f60;
 }
-ul {
+/**header {
+	background-image: url(assets/background-image/viking_ship.jpg);
+}**/
+
+header ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-li {
+header li {
 	float: left;
 	padding: 10px;
 
 }
-a {
+header a {
 	text-decoration: none;
 }
-li a {
+header li a {
 	display: block;
 	padding: 8px;
-	color: white;
+	color: black;
+	font-size: 24px;
 }
-li:nth-child(2) {
+.hack {
 	float: right;
 }
 .shop-cart {
@@ -36,6 +44,7 @@ li:nth-child(2) {
 .viking-ship {
 	width: 100%;
 	height:400px;
+	opacity:1;
 }
 .about {
 	display: inline-block;
@@ -94,6 +103,19 @@ button {
 	padding: 0;
 	background: white;
 	border: 1px solid black;
+}
+.bottom-nav {
+	clear: both;
+}
+.bottom-nav ul {
+	width: 400px;
+	margin: auto;
+}
+.bottom-nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
 }
 
 footer {
